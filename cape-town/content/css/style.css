@@ -1,0 +1,149 @@
+html {
+    box-sizing: border-box;
+    -ms-overflow-style: scrollbar;
+  }
+
+*{
+    margin: 0;
+    outline: none;
+    padding: 0;
+    text-decoration: none;
+}  
+body
+{
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #EFF8FF;
+    font-family: 'Lato';
+    font-weight: normal;
+    color: #223668; 
+}
+
+/* header */
+
+.header
+{
+    text-align: center;
+    margin-top: 5px;
+}
+.header-upper
+{
+    border-bottom: 1px solid black;
+}
+.header .header-top-left
+{
+    text-align: left;
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+.header-top-right a
+{
+    padding: 2px;
+    display: block;
+    border-left: 1px solid black;
+}
+.header-footer
+{
+    margin-top: 5px;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+.header-footer-left
+{
+    text-align: left;
+    margin-left: 15px;
+}
+.header-footer-center
+{
+ margin-left: 10px;
+}
+.header-footer ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+.header-footer li
+{
+    float: left;
+    padding: 5px;
+    margin: 0 auto;
+    margin-left: 10px;
+    text-transform: uppercase;
+
+}
+.header-footer-right
+{
+    justify-content: right;
+}
+.header-footer-right a
+{
+    padding: -10px;
+    margin-left:-50px;
+}
+.slide-image img
+{
+    width: 100%;
+    height: 450px;
+    margin-left: 2px;
+}
+section .slide-image
+{
+    position: relative;
+}
+section .info-block
+{
+    position: absolute;
+    left: 100px;
+    top: 250px;
+    background-color: rgb(101, 133, 158);
+    color: white;
+    height: 150px;
+    width: 300px;
+
+}
+.info-block a
+{
+    margin-left: 80px;
+    margin-top: 15px;
+    position: fixed;
+    background-color: black;
+    padding: 15px;
+    color: white;
+}
+
+.info-block .icon-add-to-cart::before
+{
+  color: white;
+  margin-left: 5px;
+}
+
+.slide-image .info-block h2
+{
+    margin-top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.slide-image .info-block p
+{
+    margin-top: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.image-arrow
+{
+    position: absolute;
+    bottom: 100px;
+    right: 20px;
+}
+.image-arrow a
+{
+    margin-left: 15px;
+    
+}
+.icon-left-arrow::before,.icon-right-arrow::before
+{
+    color: white;
+}
